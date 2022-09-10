@@ -1,0 +1,56 @@
+[
+    {
+        "precio": 12000,
+        "id": 1,
+        "title": "GTX 1060",
+        "img": ".././images/gtx1060.png"
+    },
+    {
+        "precio": 18000,
+        "id": 2,
+        "title": "GTX 1080",
+        "img": ".././images/gtx1080.png"
+    },
+    {
+        "precio": 15000,
+        "id": 3,
+        "title": "GTX 1650",
+        "img": ".././images/gtx1650.png"
+    },
+    {
+        "precio": 21000,
+        "id": 4,
+        "title": "GTX 1660",
+        "img": ".././images/gtx1660.png"
+    },
+    {
+        "precio": 23000,
+        "id": 5,
+        "title": "RTX 2060",
+        "img": ".././images/rtx2060.png"
+    },
+    {
+        "precio": 25000,
+        "id": 6,
+        "title": "RTX 2080",
+        "img": ".././images/rtx2080.png"
+    },
+    {
+        "precio": 31000,
+        "id": 7,
+        "title": "RTX 3060",
+        "img": ".././images/rtx3060.png"
+    },
+    {
+        "precio": 35000,
+        "id": 8,
+        "title": "RTX 3070",
+        "img": ".././images/rtx3070.png"
+    },
+    {
+        "precio": 40000,
+        "id": 9,
+        "title": "RTX 3090",
+        "img": ".././images/rtx3090.png"
+    }
+]

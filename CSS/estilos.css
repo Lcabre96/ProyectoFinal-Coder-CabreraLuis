@@ -1,0 +1,320 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+
+
+/* PAGINA DE INICIO */
+
+.lh-1 {
+  color: #fff;
+}
+
+.line-1 {
+  position: relative;
+  top: 50%;
+  width: 24em;
+  margin: 0 auto;
+  border-right: 2px solid rgba(255, 255, 255, 0.75);
+  font-size: 180%;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  transform: translateY(-50%);
+}
+
+.texto-animado {
+  animation: typewriter 1s steps(44) 1s 1 normal both, blinkTextCursor 500ms steps(44) infinite normal;
+}
+
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 18rem;
+  }
+}
+
+@keyframes blinkTextCursor {
+  from {
+    border-right-color: rgba(255, 255, 255, 0.75);
+  }
+
+  to {
+    border-right-color: transparent;
+  }
+}
+
+
+.texto-inicio {
+  color: #fff;
+  font-family: 'Indie Flower', cursive;
+}
+
+.color-letra {
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  margin: auto;
+}
+
+.color-letra:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+.container-main {
+  background-image: linear-gradient(rgba(16, 16, 16, 0.8), rgba(16, 16, 16, 0.9)), url(../images/video-inicio.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 80vh;
+}
+
+ .btn1 {
+  display: flex;
+  text-align: center;
+  width: 50%;
+  margin-left: 25%;
+  text-decoration: none;
+  padding: 0.5rem;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+#add-btn {
+  display: flex;
+  text-align: center;
+  width: 50%;
+  margin-left: 25%;
+  text-decoration: none;
+  padding: 0.5rem;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+
+/* EFECTO CARTAS  */
+
+.card-img-top {
+  width: 15rem;
+  filter: brightness(70%);
+  cursor: pointer;
+  margin: auto;
+  transition: all 1s;
+  transition: all 1s;
+}
+
+.card-img-top:hover {
+  filter: brightness(100%);
+  transform: scale(1.1);
+}
+
+
+/* NAVBAR */
+
+.navbar {
+  background-color: #000;
+}
+
+.logo {
+  width: 6vw;
+}
+
+.nav-link {
+  transition: all .5s;
+}
+
+.nav-link:hover {
+  color: #48e !important;
+}
+
+/* NAVBAR */
+
+body {
+  background-color: #000000;
+}
+
+header,
+.alert {
+  z-index: 100;
+}
+
+.descripcion {
+  height: 35px;
+  overflow: hidden;
+  transition: height .3s ease-in .3s;
+}
+
+.descripcion:hover {
+  height: 150px;
+  cursor: pointer;
+}
+
+
+
+.carrito {
+  min-height: 80vh;
+  max-width: 1000px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.table-productos {
+  display: flex;
+}
+
+.table-productos>img {
+  width: 9rem;
+  object-fit: contain;
+  border-radius: 6px;
+  margin-right: 20px;
+}
+
+.table-cantidad>input {
+  width: 40px;
+  border: none;
+  outline: 0;
+  font-size: 16px;
+  font-weight: 700;
+  margin-right: 30px;
+  margin-bottom: 20px;
+}
+
+
+#add-btn {
+  border-radius: 45%;
+  background-color: #fff;
+  color: #48e;
+  font-weight: bold;
+  display: inline-block;
+}
+
+#add-btn:hover {
+  border-radius: 45%;
+  background-color: #48e;
+  color: #fff;
+  font-weight: bold;
+}
+
+.boton-comprar {
+  display: inline-block;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  background-color: #fff;
+  color: #000000;
+  font-weight: bold;
+}
+
+.boton-comprar:hover {
+  display: inline-block;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  background-color: rgb(6, 238, 17);
+  color: #fff;
+  font-weight: bold;
+
+}
+
+.boton-vaciar {
+  display: inline-block;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  background-color: #fff;
+  color: #000000;
+  font-weight: bold;
+}
+
+.boton-vaciar:hover {
+  display: inline-block;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  background-color: #f00;
+  color: #fff;
+  font-weight: bold;
+}
+
+
+span {
+  color: #fff;
+}
+
+
+/* FOOOTER */
+
+.footer .redes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+}
+
+.redes a {
+  margin: 20px 20px;
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  background: #333;
+  color: #fff;
+  line-height: 50px;
+  font-size: 18px;
+  box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2);
+  transition: .2;
+}
+
+.redes i:hover a {
+  filter: blur(1px);
+}
+
+.redes a:hover {
+  transform: translateY(-3px) scale(1.05);
+  filter: none;
+}
+
+.redes .facebook:hover {
+  background: #273780;
+}
+
+.redes .instagram:hover {
+  background: #ba1743;
+}
+
+.redes .visa:hover {
+  background: #0630ef;
+}
+
+.redes .bitcoin:hover {
+  background: #848d0a;
+}
+
+/* FOOTER */
+
+/* QUERYS FOOTER */
+
+@media (max-width: 768px) {
+  .col-md-4 {
+      flex: 0 0 auto;
+      width: auto;
+      margin: auto;
+  }
+}
+
+@media (min-width: 576px) {
+
+  .col-md-4 {
+      flex: 0 0 auto;
+      width: auto;
+  }
+
+  .margen {
+      margin-left: 0.8rem;
+  }
+
+  .nav {
+      margin-left: 0.5rem;
+  }
+}
